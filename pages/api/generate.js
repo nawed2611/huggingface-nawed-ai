@@ -5,7 +5,6 @@ const bufferToBase64 = (buffer) => {
 
 const generateAction = async (req, res) => {
   const input = JSON.parse(req.body).input;
-  console.log(input);
   const response = await fetch(
     `https://api-inference.huggingface.co/models/nawed/nawed-new`,
     {

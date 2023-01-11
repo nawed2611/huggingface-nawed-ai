@@ -4,10 +4,10 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="AI Avatar Generator" key="title" />
+        <meta property="og:title" content="Nedved AI" key="title" />
         <meta
           property="og:description"
-          content="build with buildspace"
+          content="Generate an avatar of yourself using AI."
           key="description"
         />
         {/* <meta
